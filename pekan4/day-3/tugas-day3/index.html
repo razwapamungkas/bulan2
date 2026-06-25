@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Input Data Siswa</h2>
+    <form id="formSiswa">
+      <input type="text" id="nama" placeholder="Nama" required />
+      <input type="number" id="umur" placeholder="Umur" required />
+      <input type="text" id="kelas" placeholder="Kelas" required />
+      <button type="submit" id="tombolSimpan">Tambah</button>
+    </form>
+
+    <h2>Data Siswa</h2>
+    <table border="1" cellspacing="0" cellpadding="5">
+      <thead>
+        <tr>
+          <th>Nama</th>
+          <th>Umur</th>
+          <th>Kelas</th>
+          <th>Aksi</th>
+        </tr>
+      </thead>
+      <tbody id="tabelSiswa"></tbody>
+    </table>
+
+    <p>Total Siswa: <span id="totalSiswa">0</span></p>
+
+    <script src="script.js"></script>
+  </body>
+</html>
